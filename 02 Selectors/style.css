@@ -1,0 +1,19 @@
+/* Element Selector */
+div {
+    background-color: beige;
+}
+
+/* id Selector */
+#header {
+    font-size: 2rem;
+}
+
+/* class Selector */
+.subtitle {
+    color: blue;
+}
+
+/* alle p's in dem div werden ausgewählt */
+#text p {
+    background-color: violet;
+}
