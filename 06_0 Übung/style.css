@@ -142,3 +142,43 @@ table {
   margin: 5px;
 }
 
+.bluebox {
+    background-color: aqua;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.text {
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.brownbox {
+    background-color: brown;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.purplebox {
+    background-color: blueviolet;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+.list{
+    list-style-type: disc;
+    margin-left: 20px;
+}
