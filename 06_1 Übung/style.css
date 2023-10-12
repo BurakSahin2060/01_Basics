@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -56,4 +54,48 @@ table {
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+.headerbox {
+	background-color: aqua;
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 300px;
+	width: 460px;
+	padding: 20px;
+	position: relative;
+}
+
+ul {
+	list-style: disc;
+	margin-left: 20px;
+}
+
+.header {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.bottombox {
+	background-color: brown;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	right: 0%;
+	bottom: 0%;
+}
+
+.footer {
+	background-color: yellow;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 30px;
+}
+
+.footerbox {
+	background-color: green;
+	height: 30px;
+	width: 30px;
 }
