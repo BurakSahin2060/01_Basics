@@ -47,29 +47,59 @@ table {
 
 
 .bigbox {
+	position: relative;
     height: 400px;
     width: 400px;
     margin-top: 50px;
     margin-left: 50px;
-    position: relative;
+	display: flex;
 }
 
 .container1 {
     background-color: green;
-    position: absolute;
+	height: 300px;
+	width: 200px;
 }
 
 .container2 {
     background-color: blue;
-    position: absolute;
-
+    position: relative;
+	height: 300px;
+	width: 200px;
 }
 
 .box1 {
     background-color: black;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	right: 0px;
+	top: 0px
 }
 
 .container3 {
     background-color: orange;
     position: absolute;
+	height: 100px;
+	width: 400px;
+	bottom: 0;
+
+}
+
+.container6 {
+	position: absolute;
+	background-color: gray;
+	height: 250px;
+	width: 250px;
+	bottom: 0px;
+	left: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box6 {
+	background-color: orange;
+	height: 50px;
+	width: 50px;
 }
