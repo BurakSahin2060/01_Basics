@@ -1,0 +1,24 @@
+.container1 {
+    border: solid;
+    margin: 100px;
+    display: grid;
+}
+
+.box {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+}
+
+.container2 {
+    border: solid;
+    margin: 100px;
+    display: grid;
+}
+
+
+.boxx {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
