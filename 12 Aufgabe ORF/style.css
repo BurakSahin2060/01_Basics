@@ -1,0 +1,146 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: lightgrey;
+    display: grid;
+    justify-content: center;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-feature-settings: "liga", "kern"
+}
+
+.header1 {
+    height: 30px;
+    align-items: center;
+    background-color: rgb(90, 2, 2);
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-style: none;
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.main {
+    height: 100vh;
+    width: 65vw;
+}
+
+.header2 {
+    background-color: rgb(130, 1, 1);
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.header3 {
+    background-color: rgb(50, 1, 1);
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.infection {
+    width: 65vw;
+    position: absolute;
+}
+
+.box {
+    width: 45vw;
+    height: 15vh;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+}
+
+.headline {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.lorem {
+    margin: 5px;
+}
