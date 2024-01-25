@@ -41,12 +41,16 @@ for (let index = 1; index < 5; index++) {
     }
   }
 
-  
+
 // Versuche in einer for - Schleife (1-100) alle geraden Zahlen zu addieren (zwei Lösungswege ⇒ Zähler
 // dahingehend verändern das er nur gerade Zahlen zählt und mit Modulo arbeiten.)
+let outputtt = 0;
 
-
-
+for (let a = 1; a <= 4; a++) {
+    if (a % 2 == 0) {
+        
+    }
+}
 
 
 /* Versuche mit einer for/while Schleife den Anfangsbuchstaben deines Namens auszugeben, z.B.: 
