@@ -19,5 +19,5 @@ function add(a,b) {
 printMenu("Peter", 17, "Lustenau");
 printMenu("Hans", 54, "Dornbirn");
 
-let result = add(,7);
+let result = add(7);
 console.log(result);
