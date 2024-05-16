@@ -5,12 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script defer src="script mini rechner.js"></script>
+    <style>
+      h1 {
+        font-size: 50px;
+        color: blue;
+      }
+
+      button {
+        background-color: beige;
+        border: none;
+        color: black;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+
+      input {
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+
+      .result {
+        font-size: 25px;
+        color: red;
+        border: solid;
+        width: 20%;
+      }
+    </style>
   </head>
   <body>
-    <h1 id="heading">Super Page</h1>
-    <div id="content">
-      A<input type="text" id="number1" /> B<input type="text" id="number2" />
-      <button onclick="buttonClicked()">Berechnen</button>
+    <h1 id="heading">Mini Rechner</h1>
+    <div id="content_add">
+      <input type="text" id="add1" /> <input type="text" id="add2" />
+      <button onclick="buttonAddition()">Addieren</button>
     </div>
+
+    <div id="content_sub">
+      <input type="text" id="subtract1" /> <input type="text" id="subtract2" />
+      <button onclick="buttonSubtraction()">Subtrahieren</button>
+    </div>
+
+    <div id="content_mul">
+      <input type="text" id="multiple1" /> <input type="text" id="multiple2" />
+      <button onclick="buttonMultiplication()">Multiplizieren</button>
+    </div>
+
+    <div id="content_div">
+      <input type="text" id="divison1" /> <input type="text" id="divison2" />
+      <button onclick="buttonDivision()">Dividieren</button>
+    </div>
+
+    <div class="result"></div>
   </body>
 </html>
